@@ -6,7 +6,8 @@ For example, one can:
 - Reformat sequence names
 - Filter sequences by pattern
 - Check and remove redundancy
-- Encode/decode .phy alignments and trees
+- Encode/decode full names to use .phy alignments
+    This is useful when third-party computing resources require the .phy format, which trims sequence names to 30 characters.
 - Sort sequences based on tree structure
 
 The .ipynb file shows a mock workflow so one can directly copy these blocks.
