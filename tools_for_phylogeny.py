@@ -307,7 +307,7 @@ def sort_seq_by_tree(dir_path, seq_file, tree_file, chunks=True):
         return
 
     # sligth modification of write_to_txt()
-    file_name = seq_file.split('.')[0] + '_sorted.txt'
+    file_name = seq_file.split('.')[0] + '_sorted.fa'
     file_path = dir_path / file_name
     with file_path.open('w') as f:
         for name in L_name:
